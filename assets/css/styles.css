@@ -10,7 +10,7 @@
 /* scroll bar */
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -19,6 +19,7 @@
 
 ::-webkit-scrollbar-thumb {
   background: var(--main-color);
+  border-radius: 12px;
 }
 
 .footer-dark {
@@ -282,3 +283,13 @@ div#features:hover {
   text-align: center;
   padding: 18px;
 }
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
